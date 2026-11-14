@@ -1,0 +1,61 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "base_keymap": "JetBrains",
+
+  // Theme & look
+  "theme": { "mode": "dark", "light": "One Light", "dark": "Driftwood" },
+  "icon_theme": { "mode": "dark", "light": "Archipelago Icons", "dark": "Archipelago Icons" },
+  "ui_font_size": 16,
+  "buffer_font_family": "JetBrains Mono",
+  "buffer_font_size": 17,
+  "buffer_font_weight": 400,
+  "buffer_font_features": { "liga": true },
+  "buffer_line_height": { "custom": 1.8 },
+  "terminal": { "font_size": 16 },
+
+  // PhpStorm-style editor features
+  "colorize_brackets": true,
+  "indent_guides": { "enabled": true, "coloring": "indent_aware", "background_coloring": "indent_aware" },
+  "inlay_hints": { "enabled": true, "show_background": true },
+  "minimap": { "show": "always" },
+  "toolbar": { "breadcrumbs": true },
+  "project_panel": { "dock": "left" },
+
+  "auto_install_extensions": {
+    "php": true,
+    "blade": true,
+    "scss": true,
+  },
+
+  "languages": {
+    "PHP": { "language_servers": ["intelephense", "!phpactor", "..."] },
+    "TypeScript": { "semantic_tokens": "combined" },
+    "TSX": { "semantic_tokens": "combined" },
+    "JavaScript": { "semantic_tokens": "combined" }
+  },
+
+  // JS/TS colours come from the theme's ts.* styles (WebStorm look)
+  "global_lsp_settings": {
+    "semantic_token_rules": [
+      { "token_type": "variable", "token_modifiers": ["local"], "style": ["ts.variable.local"] },
+      { "token_type": "variable", "style": ["ts.variable"] },
+      { "token_type": "parameter", "style": ["ts.parameter"] },
+      { "token_type": "property", "style": ["ts.property"], "font_style": "normal" },
+      { "token_type": "function", "style": ["ts.function"] },
+      { "token_type": "member", "style": ["ts.function"] },
+      { "token_type": "class", "style": ["ts.type"] },
+      { "token_type": "interface", "style": ["ts.type"] },
+      { "token_type": "type", "style": ["ts.type"] },
+      { "token_type": "typeParameter", "style": ["ts.type"] },
+      { "token_type": "enum", "style": ["ts.type"] },
+      { "token_type": "enumMember", "style": ["ts.enum_member"] }
+    ]
+  }
+}
