@@ -26,7 +26,7 @@
   "inlay_hints": { "enabled": true, "show_background": true },
   "minimap": { "show": "always" },
   "toolbar": { "breadcrumbs": true },
-  "project_panel": { "dock": "left" },
+  "project_panel": { "dock": "left", "folder_indicator": "both" },
 
   "auto_install_extensions": {
     "php": true,
@@ -57,5 +57,5 @@
       { "token_type": "enum", "style": ["ts.type"] },
       { "token_type": "enumMember", "style": ["ts.enum_member"] }
     ]
-  }
+  },
 }
