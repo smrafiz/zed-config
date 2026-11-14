@@ -57,5 +57,5 @@
       { "token_type": "enum", "style": ["ts.type"] },
       { "token_type": "enumMember", "style": ["ts.enum_member"] }
     ]
-  },
+  }
 }
