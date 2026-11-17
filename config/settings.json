@@ -35,7 +35,7 @@
   },
 
   "languages": {
-    "PHP": { "language_servers": ["intelephense", "!phpactor", "..."] },
+    "PHP": { "language_servers": ["intelephense", "phpactor", "..."] },
     "TypeScript": { "semantic_tokens": "combined" },
     "TSX": { "semantic_tokens": "combined" },
     "JavaScript": { "semantic_tokens": "combined" }
