@@ -1,0 +1,53 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "languages": {
+    "PHP": { "language_servers": ["intelephense", "!phpactor", "!phptools", "!phpantom", "..."] }
+  },
+  "lsp": {
+    "intelephense": {
+      "settings": {
+        "intelephense": {
+          "stubs": ["wordpress", "apache", "bcmath", "bz2", "calendar", "Core", "ctype", "curl", "date", "dom", "exif", "fileinfo", "filter", "gd", "gettext", "hash", "iconv", "intl", "json", "libxml", "mbstring", "mysqli", "openssl", "pcre", "PDO", "pdo_mysql", "Phar", "posix", "Reflection", "session", "SimpleXML", "sockets", "sodium", "SPL", "standard", "superglobals", "tokenizer", "xml", "xmlreader", "xmlwriter", "zip", "zlib"]
+        }
+      }
+    }
+  },
+  "diagnostics": { "inline": { "enabled": true } },
+  "preview_tabs": {
+    "enable_preview_from_project_panel": false
+  },
+  "project_panel": {
+    "hide_gitignore": false,
+    "hide_hidden": false,
+    "auto_reveal_entries": true,
+    "dock": "left"
+  },
+  "outline_panel": {
+    "dock": "left"
+  },
+  "agent": {
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "git_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "ui_font_size": 16,
+  "buffer_font_size": 17,
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "Driftwood",
+  },
+}
