@@ -7,6 +7,14 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "lsp": {
+    "phpantom": {
+      "binary": {
+        "path": "/Users/radiustheme/.local/share/zenith/tools/phpantom/current/phpantom_lsp"
+      },
+      "enable_lsp_tasks": true
+    }
+  },
   "diagnostics": { "inline": { "enabled": true } },
   "preview_tabs": {
     "enable_preview_from_project_panel": false
